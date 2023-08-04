@@ -1,0 +1,54 @@
+.logger{
+    
+}
+
+.logger .loggerHeading{
+    text-align: center;
+    color: #d328a0;
+    font-weight: 800;
+}
+
+.log{
+    margin-top: 5rem;
+    width: 100%;
+    background: #999999;
+    padding: 2rem;
+}
+
+form{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+form label{
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+form input, select{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+button{
+    height: auto;
+    width: 5rem;
+    background: #d328a0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
